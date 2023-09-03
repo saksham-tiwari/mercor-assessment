@@ -1,9 +1,20 @@
 .cashApp{
     font-size:12rem;
     color: white;
+    width: 100%;
+    text-align: center;
+    img{
+        position: absolute;
+        left:calc(50% - 14rem);
+        bottom: 3rem;
+        width: 28rem;
+        height: 36rem;
+    }
     >p{
         padding: 0;
         margin: 0;
         font-weight: 800;
+        position: relative;
+        // font-weight: bolder;
     }
 }

@@ -1,11 +1,9 @@
 import React from 'react'
 import styles from "./Navbar.module.scss"
-import cashappLogo from "../../assets/cashapp-logo.svg"
-import eyeButton from "../../assets/eye-button.svg"
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-        <img src={cashappLogo} alt="cashapp-logo"></img>
+        <img src="assets/cashapp-logo.svg" alt="cashapp-logo"></img>
         <ul>
             <li>SIGN IN</li>
             <li>LEGAL</li>
@@ -17,7 +15,7 @@ const Navbar = () => {
             <li>STATUS</li>
             <li>CODEBLOG</li>
         </ul>
-        <img src={eyeButton} alt="eye-button"></img>
+        <img src="assets/eye-button.svg" alt="eye-button"></img>
 
     </div>
   )

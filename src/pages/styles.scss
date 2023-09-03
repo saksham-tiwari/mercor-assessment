@@ -2,7 +2,37 @@
     width: 100vw;
     height: 100vh;
     background-color: #000;
-    background-image: url(../assets/bg-lines.svg);
+    background-image: url(../../public/assets/bg-lines.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    .objWrapper{
+        position: absolute;
+        top: 0;
+        left:0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        >img{
+            position: absolute;
+        }
+        .introCube{
+            left: 14.25rem;
+            top: 4rem;
+        }
+        .introStairs{
+            right: 10rem;
+            top: 4rem;
+
+        }
+        .introCubes{
+            left: 14rem;
+            bottom: 5rem;
+        }
+        .introPillar{
+            right: 17rem;
+            bottom: -4rem;
+            width: 17.5rem;
+            // height: ;
+        }
+    }
 }
