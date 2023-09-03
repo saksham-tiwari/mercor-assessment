@@ -1,0 +1,19 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+
+
+    ul{
+        padding-top: 1rem;
+        display: flex;
+        color: white;
+        list-style-type: none;
+        gap: 1rem;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
+    }
+}

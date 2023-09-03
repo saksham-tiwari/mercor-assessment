@@ -1,7 +1,10 @@
+import HeroSection from "./pages/HeroSection";
+
 function App() {
   return (
-    <div>
-    </div>
+    <>
+      <HeroSection/>
+    </>
   );
 }
 
