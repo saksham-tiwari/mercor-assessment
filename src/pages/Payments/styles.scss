@@ -1,0 +1,90 @@
+#PaymentsSection{
+    width: 100vw;
+    height: 100vh;
+    max-width:100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../../public/assets/payments-floor.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    .objWrapperPayments{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        max-width:100%;
+        overflow: hidden;
+        .textDiv{
+            position: absolute;
+            width: 22rem;
+            left: 14.75rem;
+            transform: translate(0%,60%);
+            h2{
+                color: var(--Cash-App-Green, #00D54B);
+                font-size: 2.5rem;
+                font-weight: 800;
+                line-height: 2.5rem; 
+            }
+            p{
+                color: #000;
+                font-family: Mulish;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.375rem; 
+                letter-spacing: 0.01875rem;
+            }
+        }
+        >img{
+            position: absolute;
+        }
+        .paymentsColumn{
+            width: 50.625rem;
+        }
+        .paymentsColumn1{
+            left:-40rem;
+            bottom: -6rem;
+        }
+        .paymentsColumn2{
+            left:18rem;
+            bottom: -4.625rem;
+            z-index: 4;
+
+        }
+        .paymentsColumn3{
+            left:36rem;
+            bottom: 3rem;
+            z-index: 1;
+        }
+        .paymentsPhone{
+            left: 19.125rem;
+            bottom: 12.65rem;
+        }
+        .paymentsPillarMedium1{
+            left: 9.375rem;
+            bottom: 1.6rem;
+        }
+        .paymentsPillarMedium2{
+            left: 31.9375rem;
+            bottom: 2.33rem;
+            z-index: 3;
+        }
+        .paymentsPillarMedium3{
+            left: 60.9375rem;
+            bottom: 10.58rem;
+        }
+        .paymentsPillarMedium4{
+            bottom: -4.375rem;
+            left: 41.125rem;
+            z-index: 3;
+        }
+        .paymentsPillarLarge{
+            left: 39.875rem;
+            bottom: 5.3rem;
+            z-index: 2;
+        }
+        .paymentsPillarSmall{
+            left: 16.1875rem;
+            bottom: 3.67rem;
+        }
+    }
+}

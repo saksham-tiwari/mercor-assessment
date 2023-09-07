@@ -1,13 +1,13 @@
 import React from 'react'
-import CashAppMain from '../components/CashAppMain/CashAppMain'
-import Navbar from '../components/Navbar/Navbar'
+import CashAppMain from '../../components/CashAppMain/CashAppMain'
+import Navbar from '../../components/Navbar/Navbar'
 import "./styles.scss"
-import HeroFooter from '../components/HeroFooter/HeroFooter'
+import HeroFooter from '../../components/HeroFooter/HeroFooter'
 
 const HeroSection = () => {
   return (
     <div id='HeroSection'>
-        <div className='objWrapper'>
+        <div className='objWrapperHero'>
           <img src="/assets/intro-cube.png" alt="introCube" className='introCube'/>
           <img src="/assets/intro-stairs.png" alt="introStairs" className='introStairs'/>
           <img src="/assets/intro-cubes.png" alt="introCubes" className='introCubes'/>
