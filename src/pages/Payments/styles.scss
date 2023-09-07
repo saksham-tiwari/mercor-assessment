@@ -16,8 +16,9 @@
         .textDiv{
             position: absolute;
             width: 22rem;
-            left: 14.75rem;
-            transform: translate(0%,60%);
+            margin-left: 20%;
+            // left: 14.75rem;
+            transform: translate(-30%,60%);
             h2{
                 color: var(--Cash-App-Green, #00D54B);
                 font-size: 2.5rem;
@@ -56,8 +57,11 @@
             z-index: 1;
         }
         .paymentsPhone{
-            left: 19.125rem;
-            bottom: 12.65rem;
+            // left: 19.125rem;
+            // bottom: 12.65rem;
+            
+            margin-left: 50%;
+            transform: translate(-50%, 30%);
         }
         .paymentsPillarMedium1{
             left: 9.375rem;
