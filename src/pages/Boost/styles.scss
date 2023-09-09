@@ -1,0 +1,57 @@
+#BoostSection{
+    width: 100vw;
+    height: 100vh;
+    max-width:100%;
+    margin: 0;
+    padding: 0;
+    background: #000;    
+    .objWrapperBoost{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        max-width:100%;
+        overflow: hidden;
+        >img{
+            position: absolute;
+        }
+        .BoostPhone{
+            // top: 50%;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 3;
+        }
+        .BoostStairs1{
+            width: 65.625rem;
+            height: 56.10688rem;
+            right: -7.56rem;
+            bottom: -8.5625rem;
+        }
+        .BoostStairs2{
+            width: 34.375rem;
+            height: 45.36444rem;
+            top: 10.13rem;
+            left: -10.6875rem;
+        }
+        .BoostHand{
+            bottom: 35.28rem;
+            right: 12.69rem;
+        }
+        .BoostCard{
+            bottom: 25.22rem;
+            right: 19.38rem;
+        }
+        .BoostShoe{
+            bottom: 16.74rem;
+            right: 1.25rem;
+        }
+        .BoostCoffee{
+            bottom: 7.2rem;
+            right: 19.25rem;
+        }
+        .BoostBurger{
+            bottom: 16.77rem;
+            right: 25.88rem;
+        }
+    }
+} 

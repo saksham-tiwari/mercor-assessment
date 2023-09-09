@@ -1,0 +1,15 @@
+#InvestingSection{
+    width: 100vw;
+    height: 100vh;
+    max-width:100%;
+    margin: 0;
+    padding: 0;
+    background: var(--Cash-App-Green, #00D54B);
+    .objWrapperInvesting{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        max-width:100%;
+        overflow: hidden;
+    }
+} 
