@@ -5,7 +5,13 @@ const Boost = () => {
   return (
     <div id='BoostSection'>
         <div className='objWrapperBoost'>
+        <div className='boostTextBlock'>
+          <div class="textBlock">
+            <h2>Cash Card & Boost</h2>
+            <p>The Cash Card is a free, customizable debit card that lets you pay online and in stores. It’s the only way to get Boosts—instant discounts that work at places where you want to spend.</p>
+          </div>
           <img src="/assets/boost-phone.png" alt="BoostPhone" className='BoostPhone'/>
+        </div>
           <img src="/assets/boost-stairs-1.png" alt="BoostStairs" className='BoostStairs1'/>
           <img src="/assets/boost-stairs-2.png" alt="BoostStairs" className='BoostStairs2'/>
           <img src="/assets/boost-hand.png" alt="BoostHand" className='BoostHand'/>
