@@ -4,8 +4,9 @@
     max-width:100%;
     margin: 0;
     padding: 0;
+    background: #F8F6F6;
     background-image: url(../../../public/assets/payments-floor.svg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position: bottom;
     .objWrapperPayments{
         position: absolute;
@@ -14,16 +15,17 @@
         max-width:100%;
         overflow: hidden;
         .textDiv{
-            position: absolute;
-            width: 22rem;
-            margin-left: 20%;
-            // left: 14.75rem;
-            transform: translate(-30%,60%);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            transform: translate(0,25%);
             h2{
                 color: var(--Cash-App-Green, #00D54B);
                 font-size: 2.5rem;
                 font-weight: 800;
                 line-height: 2.5rem; 
+                width: 21rem;
             }
             p{
                 color: #000;
@@ -33,6 +35,39 @@
                 font-weight: 400;
                 line-height: 1.375rem; 
                 letter-spacing: 0.01875rem;
+                width: 21rem;
+
+            }
+            img{
+                margin-left: -18.75rem;
+            }
+            @media (max-width:830px){
+                margin-left: 10%;
+                justify-content: space-evenly;
+            }
+            @media (max-width:680px){
+                margin-left: 30%;
+                justify-content: space-evenly;
+            }
+            @media (max-width:520px){
+                flex-direction: column;
+                transform: translate(0,0);
+                margin-left: 0;
+                align-items: center;
+                img{
+                    margin-left:0rem;
+                }
+            }
+            @media (max-width:360px){
+                p{
+                    font-size: 0.8rem;
+                    width: 280px;
+                }
+                h2{
+                    font-size: 1.8rem;
+                    width: 280px;
+
+                }
             }
         }
         >img{
@@ -44,28 +79,32 @@
         .paymentsColumn1{
             left:-40rem;
             bottom: -6rem;
+            @media (max-width:520px){
+                display: none;
+            }
         }
         .paymentsColumn2{
-            left:18rem;
+            right: 16.31rem;
             bottom: -4.625rem;
             z-index: 4;
-
+            @media (max-width:1054px){
+                display: none;
+            }
         }
         .paymentsColumn3{
-            left:36rem;
+            right: -1.06rem;
             bottom: 3rem;
             z-index: 1;
-        }
-        .paymentsPhone{
-            // left: 19.125rem;
-            // bottom: 12.65rem;
-            
-            margin-left: 50%;
-            transform: translate(-50%, 30%);
+            @media (max-width:680px){
+                display: none;
+            }
         }
         .paymentsPillarMedium1{
             left: 9.375rem;
             bottom: 1.6rem;
+            @media (max-width:520px){
+                display: none;
+            }
         }
         .paymentsPillarMedium2{
             left: 31.9375rem;
@@ -73,8 +112,11 @@
             z-index: 3;
         }
         .paymentsPillarMedium3{
-            left: 60.9375rem;
+            right: 13.69rem;
             bottom: 10.58rem;
+            @media (max-width:830px){
+                display: none;
+            }
         }
         .paymentsPillarMedium4{
             bottom: -4.375rem;
@@ -82,9 +124,12 @@
             z-index: 3;
         }
         .paymentsPillarLarge{
-            left: 39.875rem;
+            right: 33.5rem;
             bottom: 5.3rem;
             z-index: 2;
+            @media (max-width:830px){
+                display: none;
+            }
         }
         .paymentsPillarSmall{
             left: 16.1875rem;

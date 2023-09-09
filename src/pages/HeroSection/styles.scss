@@ -38,5 +38,50 @@
             bottom: -4rem;
             width: 17.5rem;
         }
+        @media (max-width:920px){
+            .introCubes{
+                left: 6rem;
+            }
+            .introCube{
+                left: 6.25rem;
+            }
+            .introPillar{
+                right: 5rem;
+            }
+            .introStairs{
+                right: 3rem;
+            }
+        }
+        @media (max-width:680px) {
+            .introCubes{
+                width: 25%;
+            }
+            .introCube{
+                width: 15%;
+            }
+            .introPillar{
+                width: 25%;
+                bottom: 4rem;
+            }
+            .introStairs{
+                width: 25%;
+            }
+        }
+        @media (max-width:450px){
+            .introCubes{
+                left: 2rem;
+                width: 30%;
+
+            }
+            .introCube{
+                left: 2.25rem;
+            }
+            .introPillar{
+                right: 2rem;
+            }
+            .introStairs{
+                right: 0.5rem;
+            }
+        }
     }
 }
