@@ -35,6 +35,12 @@
             bottom: 2.12rem;
             left: -23.75rem;
             z-index: 2;
+            @media (max-width: 1080px){
+                width: 55rem;
+            }
+            @media (max-width: 800px){
+                width: 50rem;
+            }
         }
         .investingGraph2{
             width: 53.0625rem;
@@ -42,6 +48,9 @@
             bottom: 13.69rem;
             right: -37.12rem;
             z-index: 2;
+            @media (max-width: 800px){
+                width: 45rem;
+            }
         }
         .investingGraph3{
             width: 41rem;
@@ -49,6 +58,12 @@
             bottom: 2.03rem;
             right: -15.5rem;
             z-index: 2;
+            @media (max-width: 1080px){
+                width: 35rem;
+            }
+            @media (max-width: 800px){
+                width: 30rem;
+            }
         }
         .InvestingCentralDiv{
             position: relative;
@@ -65,7 +80,9 @@
                 font-weight: 800;
                 line-height: 2.5rem;
                 text-align: center;
+                margin: 0;
             }
+            
             .InvestingPhonesFlex{
                 display: flex;
                 justify-content: space-evenly;
@@ -88,6 +105,71 @@
                     margin: 0;
                     max-width: 21rem;
                 }
+            }
+            .mobile{
+                display: none;
+            }
+            @media (max-width:1340px){
+                top: 3rem;
+            }
+            @media (max-width:1090px){
+                top: 1.5rem;
+                gap: 2.5rem;
+                h3,p{
+                    width: 16rem;
+                }
+            }
+            @media (max-width:860px){
+                h3,p{
+                    width: 12rem;
+                }
+            }
+            @media (max-width:720px){
+                gap: 10px;
+
+                .InvestingPhonesFlex{
+                    display: none;
+                }
+                .mobile{
+                    display: flex;
+                }
+            }
+            @media (max-width:460px){
+                h2{
+                    font-size: 1.8rem;
+                }
+                h3{
+                    font-size: 1rem !important;
+                    width: 50%;
+                }
+                p{
+                    font-size: 0.75rem !important;
+                    width: 85%;
+                }
+                img{
+                    width: 75%;
+                }
+                .mobile{
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    >div{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        >div{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width:720px){
+            .investingGraph1, .investingGraph2, .investingGraph3{
+                display: none;
             }
         }
         // .investingStocks{

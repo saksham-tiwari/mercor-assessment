@@ -27,6 +27,24 @@ const Investing = () => {
             </div>
 
           </div>
+
+          <div class="InvestingPhonesFlex mobile">
+            <div>
+                <img src="/assets/investing-bitcoin.png" alt="investingBitcoin" className='investingBitcoin'/>
+                <div>
+                  <h3>Stocks</h3>
+                  <p>Whether you’re an expert or just getting started, Cash App is the fastest and most accessible way to invest in stocks. Start now with as little as $1.</p>
+                </div>
+            </div>
+            <div>
+                <img src="/assets/investing-stocks.png" alt="investingStocks" className='investingStocks'/>
+                <div>
+                    <h3>Bitcoin</h3>
+                    <p>Cash App is the fastest way to convert dollars to bitcoin. From your home screen, six taps are all it takes to stack sats, buy an entire bitcoin, or just see what it’s all about.</p>
+                </div>
+            </div>
+
+          </div>
         </div>
 
         <div className='investingFloor'>
