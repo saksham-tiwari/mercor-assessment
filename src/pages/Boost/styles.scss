@@ -44,26 +44,7 @@
             img{
                 position: relative;
             }
-            @media (min-height:1180px){
-                bottom: 25%;
-                left: 50%;
-                transform: translate(-55%);
-                .textBlock{
-                    max-width: 35rem;
-                }
-                h2{
-                    font-size: 5rem;
-                    line-height: 4.75rem;
-
-                }
-                p{
-                    font-size: 2.5rem;
-                    line-height: 3rem;
-                }
-                img{
-                    height: 40rem;
-                }
-            }
+            
             @media (max-width:1290px){
                 transform: none;
                 left: auto;
@@ -88,6 +69,26 @@
                 width: 100%;
                 left: 0;
                 margin: 0;
+            }
+            @media (min-height:1100px){
+                bottom: 25%;
+                left: 50%;
+                transform: translate(-55%);
+                .textBlock{
+                    max-width: 35rem;
+                }
+                h2{
+                    font-size: 5rem;
+                    line-height: 4.75rem;
+
+                }
+                p{
+                    font-size: 2.5rem;
+                    line-height: 3rem;
+                }
+                img{
+                    height: 40rem;
+                }
             }
         }
         .BoostStairs1{

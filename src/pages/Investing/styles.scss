@@ -172,5 +172,26 @@
                 display: none;
             }
         }
+        @media (min-height:1100px){
+            h2{
+                font-size: 4rem !important;
+            }
+            .InvestingPhonesFlex{
+                img{
+                    height: 40rem;
+                }
+                
+                h3{
+                    font-size: 3rem !important;
+                    width: 100% !important;
+                }
+                p{
+                    font-size: 2rem !important;
+                    line-height: 3rem !important;
+                    width: 100% !important;
+                }
+            }
+            
+        }
     }
 } 

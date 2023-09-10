@@ -13,6 +13,13 @@
         align-items: center;
         flex-direction: row;
         gap: 1.25rem;
+        @media (max-width:900px){
+            flex-direction: column;
+            button{
+                width: 9.5rem !important;
+                font-size: 0.6rem !important;
+            }
+        }
     }
     .policyText{
         font-family: 'Mulish', sans-serif;
@@ -31,5 +38,15 @@
         >svg{
             color: black;
         }
+        @media (max-width:700px){
+            flex-direction: column;
+        }
+    }
+    @media (max-width:1100px){
+        padding: 0 1rem;
+
+    }
+    @media (max-width:720px){
+        display: none;
     }
 }
