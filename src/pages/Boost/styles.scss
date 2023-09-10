@@ -46,7 +46,6 @@
             }
             @media (min-height:1180px){
                 bottom: 25%;
-                // padding-left: 10rem;
                 left: 50%;
                 transform: translate(-55%);
                 .textBlock{
@@ -64,10 +63,8 @@
                 img{
                     height: 40rem;
                 }
-                // gap: 10rem;
             }
             @media (max-width:1290px){
-                // display: none;
                 transform: none;
                 left: auto;
                 right: 34.88rem;
@@ -91,12 +88,7 @@
                 width: 100%;
                 left: 0;
                 margin: 0;
-                // align-items: center;
-                // transform: translate(65%);
             }
-            // @media (max-width:650px){
-
-            // }
         }
         .BoostStairs1{
             width: 65.625rem;
@@ -116,9 +108,6 @@
             height: 45.36444rem;
             bottom: -8.61rem;
             left: -10.6875rem;
-            // @media (min-width: 1440px){
-            //     bottom: 0rem;
-            // }
             @media (min-height: 1180px){
                 bottom: -4rem;
                 left: -5rem;

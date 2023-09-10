@@ -5,10 +5,15 @@ const Banking = () => {
   return (
     <div id="BankingSection">
       <div className='objWrapperBanking'>
-      <div className='textDiv'>
-        <h2>Banking</h2>
-        <p>Receive your paycheck, tax returns, and other direct deposits up to two days early using your Cash App routing and account number.</p>
+      <div className='BankingFlex'>
+        <div className='textDiv'>
+          <h2>Banking</h2>
+          <p>Receive your paycheck, tax returns, and other direct deposits up to two days early using your Cash App routing and account number.</p>
+        </div>
+        <img src="/assets/banking-phone.png" alt="bankingPhone" className='bankingPhone'/>
+
       </div>
+      
         <img src="/assets/banking-hole.png" alt="bankingHole" className='bankingHole bankingHole1'/>
         <img src="/assets/banking-hole.png" alt="bankingHole" className='bankingHole bankingHole2'/>
         <img src="/assets/banking-column.png" alt="bankingColumn" className='bankingColumn'/>
@@ -22,7 +27,6 @@ const Banking = () => {
         <img src="/assets/banking-cubes.png" alt="bankingCubes" className='bankingCubes'/>
         <img src="/assets/banking-monster.png" alt="bankingMonster" className='bankingMonster'/>
         <img src="/assets/banking-tube.png" alt="bankingTube" className='bankingTube'/>
-        <img src="/assets/banking-phone.png" alt="bankingPhone" className='bankingPhone'/>
 
       </div>
     </div>
