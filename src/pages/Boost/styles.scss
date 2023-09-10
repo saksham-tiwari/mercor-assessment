@@ -44,38 +44,91 @@
             img{
                 position: relative;
             }
+            @media (min-height:1180px){
+                bottom: 25%;
+                // padding-left: 10rem;
+                left: 50%;
+                transform: translate(-55%);
+                .textBlock{
+                    max-width: 35rem;
+                }
+                h2{
+                    font-size: 5rem;
+                    line-height: 4.75rem;
+
+                }
+                p{
+                    font-size: 2.5rem;
+                    line-height: 3rem;
+                }
+                img{
+                    height: 40rem;
+                }
+                // gap: 10rem;
+            }
         }
         .BoostStairs1{
             width: 65.625rem;
             height: 56.10688rem;
             right: -7.56rem;
             bottom: -8.5625rem;
+            @media (min-height: 1180px){
+                bottom: -3.5625rem;
+                right: -2.56rem;
+            }
         }
         .BoostStairs2{
             width: 34.375rem;
             height: 45.36444rem;
-            top: 10.13rem;
+            bottom: -8.61rem;
             left: -10.6875rem;
+            // @media (min-width: 1440px){
+            //     bottom: 0rem;
+            // }
+            @media (min-height: 1180px){
+                bottom: -4rem;
+                left: -5rem;
+            }
         }
         .BoostHand{
             bottom: 35.28rem;
             right: 12.69rem;
+            @media (min-height: 1180px){
+                bottom: 40.28rem;
+                right: 17.69rem;
+            }
         }
         .BoostCard{
             bottom: 25.22rem;
             right: 19.38rem;
+            @media (min-height: 1180px){
+                bottom: 30.22rem;
+                right: 24.38rem;
+            }
         }
         .BoostShoe{
             bottom: 16.74rem;
             right: 1.25rem;
+            @media (min-height: 1180px){
+                bottom: 21.74rem;
+                right: 6.25rem;
+            }
         }
         .BoostCoffee{
             bottom: 7.2rem;
             right: 19.25rem;
+            @media (min-height: 1180px){
+                bottom: 12.2rem;
+                right: 24.25rem;
+            }
         }
         .BoostBurger{
             bottom: 16.77rem;
             right: 25.88rem;
+            @media (min-height: 1180px){
+                bottom: 21.77rem;
+                right: 30.88rem;
+            }
         }
     }
 } 
