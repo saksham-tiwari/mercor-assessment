@@ -5,9 +5,7 @@
     align-items: center;
     padding: 1rem;
     margin-bottom: 6rem;
-
-
-    ul{
+    >ul{
         padding-top: 1rem;
         display: flex;
         color: white;
@@ -17,8 +15,31 @@
         align-items: center;
         justify-content: center;
         font-weight: 800;
-        line-height: 1.125rem; /* 150% */
+        line-height: 1.125rem; 
         letter-spacing: 0.03125rem;
         font-size: 0.75rem;
+        @media (max-width: 1080px){
+            display: none;
+        }
+    }
+    .hameye{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    .hamburger{
+        display: none;
+        margin: 0;
+        svg{
+            fill: white;
+            width: 2rem;
+            height: 3rem;
+        }
+        @media (max-width: 1080px){
+            display: block;
+        }
+    }
+    @media (max-width: 1080px){
+        justify-content: space-between;
     }
 }

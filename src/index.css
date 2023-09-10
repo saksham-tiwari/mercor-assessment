@@ -51,3 +51,10 @@ code {
   letter-spacing: 0.03125rem;
   text-transform: uppercase;
 }
+
+.mobileNavOpen{
+  display: block;
+}
+.mobileNavClose{
+  display: none;
+}
